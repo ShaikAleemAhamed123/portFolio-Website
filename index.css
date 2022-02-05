@@ -30,6 +30,10 @@ body {
   /* overflow-x: hidden; */
 }
 
+a{
+  cursor: pointer;
+}
+
 .navbar {
   background-color: #303030 !important;
   opacity: 0.925;
