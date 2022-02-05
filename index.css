@@ -1,70 +1,68 @@
-@media screen and (min-width:800px){
-    .contact .contact-form .contact-input{
-        width: 50vw;
-         height: 2.5rem;
-         border: none;
-         margin: auto;
-         border-bottom: 2px solid white;
-         background-color: rgb(0, 0, 0);
-         overflow: hidden;
-     }
-     .contact .contact-form .text-area{
-        border:2px solid white;
-        height: 7rem
-    }
+@media screen and (min-width: 800px) {
+  .contact .contact-form .contact-input {
+    width: 50vw;
+    height: 2.5rem;
+    border: none;
+    margin: auto;
+    border-bottom: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  .contact .contact-form .text-area {
+    border: 2px solid white;
+    height: 7rem;
+  }
 }
 
 html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    background-image: url("./Images/bodyBG.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
-    /* overflow-x: hidden; */
-
+  background-color: rgb(0, 0, 0);
+  background-image: url("./Images/bodyBG.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  color: white;
+  /* overflow-x: hidden; */
 }
 
-.navbar{
-    background-color: #303030 !important;
-    opacity: 0.925;
-    padding-right: 1.5rem;
+.navbar {
+  background-color: #303030 !important;
+  opacity: 0.925;
+  padding-right: 1.5rem;
 }
 
-.nav-link{
-    color: white !important;
+.nav-link {
+  color: white !important;
 }
 
-.nav-link:hover{
-    color: rgb(255, 0, 0) !important;
+.nav-link:hover {
+  color: rgb(255, 0, 0) !important;
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 .me {
-    height: 2.75rem;
-    width: 2.75rem;
+  height: 2.75rem;
+  width: 2.75rem;
 }
 
-
 .description {
-    line-height: 2rem;
-    color: rgb(250, 250, 250);
-    font-weight: lighter;
+  line-height: 2rem;
+  color: rgb(250, 250, 250);
+  font-weight: lighter;
 }
 
 .head {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* .introduction {
@@ -72,212 +70,207 @@ body {
 } */
 
 .breakline {
-    background-color: rgb(255, 255, 255);
-    width: 70%;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
 }
 
 .edu_icons {
-    color: rgb(255, 0, 0);
-    margin-bottom: 1rem;
+  color: rgb(255, 0, 0);
+  margin-bottom: 1rem;
 }
 
 .education {
-    padding: 0 10%;
-    text-align: center;
+  padding: 0 10%;
+  text-align: center;
 }
 
 .edu {
-    padding: 2% 0;
-    margin: 1rem;
-    letter-spacing: 2px;
-    line-height: 21px;
-}
-
-.skill div{
-    letter-spacing:0.5px;
-}
-
-.projects {
-    text-align: center;
-
-}
-
-.project {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10rem;
-    padding: 0 10%;
-}
-
-
-.project_description {
-    color: rgb(189, 189, 189);
-    font-weight: lighter;
-    line-height: 30px;
-    text-align: left;
-    color: white;
-    font-size: 14.5px;
-    letter-spacing: 0.5px;
-}
-
-.project img {
-    width: 90%;
-    height: 100%;
-    border: 5px solid red;
-}
-
-.projects_lottie{
-    margin-top: 2rem;
-}
-
-.btn {
-    color: white;
-    background-color: rgb(255 0 0);
-}
-
-.btn {
-    margin-bottom: 0.5rem;
-    transition:0.5s;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 6rem;
-    margin-top: 2rem;
-}
-
-.foot .footer_icons {
-    width: max-content;
-    margin: auto;
-    box-sizing: border-box;
-
-}
-
-.skills {
-    padding: 0 10%;
-}
-
-.skill-heading {
-    font-size: 1.85rem;
-    line-height: 35px;
-}
-
-.skill {
-    padding: 3%;
-
+  padding: 2% 0;
+  margin: 1rem;
+  letter-spacing: 2px;
+  line-height: 21px;
 }
 
 .skill div {
-    font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  padding: 0 10%;
+}
+
+.project_description {
+  color: rgb(189, 189, 189);
+  font-weight: lighter;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+  font-size: 14.5px;
+  letter-spacing: 0.5px;
+}
+
+.project img {
+  width: 90%;
+  height: 100%;
+  border: 5px solid red;
+}
+
+.projects_lottie {
+  margin-top: 2rem;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(255 0 0);
+}
+
+.btn {
+  margin-bottom: 0.5rem;
+  transition: 0.5s;
 }
 
 h2 {
-    font-weight: normal;
+  font-size: 2rem;
 }
- 
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+.foot .footer_icons {
+  width: max-content;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.skills {
+  padding: 0 10%;
+}
+
+.skill-heading {
+  font-size: 1.85rem;
+  line-height: 35px;
+}
+
+.skill {
+  padding: 3%;
+}
+
+.skill div {
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: normal;
+}
 
 .foot {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .instagram:hover {
-
-    color: transparent;
-    position: relative;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    cursor: pointer;
-
+  color: transparent;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  cursor: pointer;
 }
 
 .github:hover {
-
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .linkedin:hover {
-    color: transparent;
-    position: relative;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-color: #00A0DC;
-    cursor: pointer;
-
+  color: transparent;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-color: #00a0dc;
+  cursor: pointer;
 }
 
 .email:hover {
-    color: transparent;
-    position: relative;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-color: #ff4949;
-    cursor: pointer;
+  color: transparent;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-color: #ff4949;
+  cursor: pointer;
 }
 
-.contact-form div{
-   width: fit-content;
-   margin:auto;
-   margin-bottom: 2rem;
+.contact-form div {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 
-
-.contact-form .contact-input{
-    color: #fff;
-    width: 80vw;
-    height: 2.5rem;
-    border: none;
-    border-bottom: 2px solid white;
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    outline: none;
+.contact-form .contact-input {
+  color: #fff;
+  width: 80vw;
+  height: 2.5rem;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent !important;
+  overflow: hidden;
+  outline: none;
 }
 
-.contact-form .contact-input:focus{
-    background-color: rgb(0, 0, 0);
-    border: none;
-    border-bottom: 2px solid white;
+.contact-form .contact-input:focus {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
 }
 
-.contact .contact-form .text-area{
-    border:2px solid white;
-    height: 7rem
+.contact .contact-form .text-area {
+  border: 2px solid white;
+  height: 7rem;
 }
 
 .submit-button {
-    width: 10rem;
+  width: 10rem;
 }
 
-#Contact{
-    margin-bottom: 5rem;
+#Contact {
+  margin-bottom: 5rem;
 }
 
-.footer_icons a{
-    color: rgb(255, 255, 255);
+.footer_icons a {
+  color: rgb(255, 255, 255);
 }
 .lottie-anim-1 {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    top: 1rem;
-    left: 2rem;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 1rem;
+  left: 2rem;
 }
 .lottie-anim-2 {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    left: 28rem;
-    top: 47rem;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  left: 28rem;
+  top: 47rem;
 }
-    
